@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Open Detail" time="18.251" tests="1" failures="0" errors="0">
+   <testsuite name="Open Detail" tests="1" failures="0" errors="0" time="18.251" skipped="0" timestamp="2022-11-22 21:12:13" hostname="Mazway - DESKTOP-NTMPTGI.lan" id="Test Suites/Regression Test/Open Detail">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mazway\\Documents\\QA Engineer\\Katalon Sample Project\\Firts-Automate-Mobile-Android\\Reports\\20221122_211206\\Regression Test\\Open Detail\\20221122_211207"/>
+         <property name="logFiles" value="C:\\Users\\Mazway\\Documents\\QA Engineer\\Katalon Sample Project\\Firts-Automate-Mobile-Android\\Reports\\20221122_211206\\Regression Test\\Open Detail\\20221122_211207\\appium.log, C:\\Users\\Mazway\\Documents\\QA Engineer\\Katalon Sample Project\\Firts-Automate-Mobile-Android\\Reports\\20221122_211206\\Regression Test\\Open Detail\\20221122_211207\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mazway - DESKTOP-NTMPTGI.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.1.104"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Open Detail" time="17.949" classname="Test Cases/Open Detail" status="PASSED">
+         <system-out><![CDATA[2022-11-22 21:12:13 - [TEST_CASE][PASSED] - Test Cases/Open Detail: Test Cases/Open Detail
+
+2022-11-22 21:12:14 - [TEST_STEP][PASSED] - startApplication("C:\Users\Mazway\Documents\QA Engineer\Katalon Sample Project\Firts-Automate-Mobile-Android\Mobile App\app-pendaki.apk", true): Started app at: 'C:\Users\Mazway\Documents\QA Engineer\Katalon Sample Project\Firts-Automate-Mobile-Android\Mobile App\app-pendaki.apk'
+
+2022-11-22 21:12:14 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-22 21:12:16 - [MESSAGE][INFO] - Appium server started on port 63,902
+
+2022-11-22 21:12:28 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Mazway\Documents\QA Engineer\Katalon Sample Project\Firts-Automate-Mobile-Android\Mobile App\app-pendaki.apk'
+
+2022-11-22 21:12:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/list.picture.ImageView"), 0): Tapped on element 'Object Repository/Mobile/list.picture.ImageView'
+
+2022-11-22 21:12:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-22 21:12:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/list.picture.ImageView'
+
+2022-11-22 21:12:29 - [TEST_STEP][PASSED] - scrollToText("Argopoera"): Scrolling to text 'Argopoera' successfully
+
+2022-11-22 21:12:30 - [MESSAGE][PASSED] - Scrolling to text 'Argopoera' successfully
+
+2022-11-22 21:12:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/back.ImageButton"), 0): Tapped on element 'Object Repository/Mobile/back.ImageButton'
+
+2022-11-22 21:12:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-22 21:12:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/back.ImageButton'
+
+2022-11-22 21:12:30 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-11-22 21:12:31 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-22 21:12:13 - [TEST_SUITE][PASSED] - Open Detail: Test Cases/Open Detail]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

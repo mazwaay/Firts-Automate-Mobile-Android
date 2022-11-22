@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Open Gif" time="20.862" tests="1" failures="0" errors="0">
+   <testsuite name="Open Gif" tests="1" failures="0" errors="0" time="20.862" skipped="0" timestamp="2022-11-22 21:15:24" hostname="Mazway - DESKTOP-NTMPTGI.lan" id="Test Suites/Regression Test/Open Gif">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mazway\\Documents\\QA Engineer\\Katalon Sample Project\\Firts-Automate-Mobile-Android\\Reports\\20221122_211522\\Regression Test\\Open Gif\\20221122_211522"/>
+         <property name="logFiles" value="C:\\Users\\Mazway\\Documents\\QA Engineer\\Katalon Sample Project\\Firts-Automate-Mobile-Android\\Reports\\20221122_211522\\Regression Test\\Open Gif\\20221122_211522\\appium.log, C:\\Users\\Mazway\\Documents\\QA Engineer\\Katalon Sample Project\\Firts-Automate-Mobile-Android\\Reports\\20221122_211522\\Regression Test\\Open Gif\\20221122_211522\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mazway - DESKTOP-NTMPTGI.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.1.104"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Open Gif" time="20.555" classname="Test Cases/Open Gif" status="PASSED">
+         <system-out><![CDATA[2022-11-22 21:15:25 - [TEST_CASE][PASSED] - Test Cases/Open Gif: Test Cases/Open Gif
+
+2022-11-22 21:15:25 - [TEST_STEP][PASSED] - startApplication("C:\Users\Mazway\Documents\QA Engineer\Katalon Sample Project\Firts-Automate-Mobile-Android\Mobile App\app-pendaki.apk", true): Started app at: 'C:\Users\Mazway\Documents\QA Engineer\Katalon Sample Project\Firts-Automate-Mobile-Android\Mobile App\app-pendaki.apk'
+
+2022-11-22 21:15:26 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-22 21:15:27 - [MESSAGE][INFO] - Appium server started on port 64,220
+
+2022-11-22 21:15:40 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Mazway\Documents\QA Engineer\Katalon Sample Project\Firts-Automate-Mobile-Android\Mobile App\app-pendaki.apk'
+
+2022-11-22 21:15:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/burgerMenu.ImageButton"), 0): Tapped on element 'Object Repository/Mobile/burgerMenu.ImageButton'
+
+2022-11-22 21:15:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-22 21:15:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/burgerMenu.ImageButton'
+
+2022-11-22 21:15:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/sideMenu.CheckedTextView - Peralatan"), 0): Tapped on element 'Object Repository/Mobile/sideMenu.CheckedTextView - Peralatan'
+
+2022-11-22 21:15:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-22 21:15:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/sideMenu.CheckedTextView - Peralatan'
+
+2022-11-22 21:15:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/contentMenu.TextView - Tenda"), 0): Tapped on element 'Object Repository/Mobile/contentMenu.TextView - Tenda'
+
+2022-11-22 21:15:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-22 21:15:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/contentMenu.TextView - Tenda'
+
+2022-11-22 21:15:44 - [TEST_STEP][PASSED] - comment("Then the correct dialog message should be displayed"): Then the correct dialog message should be displayed
+
+2022-11-22 21:15:44 - [MESSAGE][INFO] - Then the correct dialog message should be displayed
+
+2022-11-22 21:15:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile/Assertion.TextView - Tenda"), "Tenda"): Actual text and expected text of test object 'Object Repository/Mobile/Assertion.TextView - Tenda' are matched.
+
+2022-11-22 21:15:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile/Assertion.TextView - Tenda' are matched.
+
+2022-11-22 21:15:44 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-11-22 21:15:45 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-22 21:15:24 - [TEST_SUITE][PASSED] - Open Gif: Test Cases/Open Gif]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

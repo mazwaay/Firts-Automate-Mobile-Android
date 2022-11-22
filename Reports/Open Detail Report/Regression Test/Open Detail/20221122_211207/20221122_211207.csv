@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Open Detail,,,,2022-11-22 21:12:13,2022-11-22 21:12:31,18.251s,PASSED
+,,,,,,,
+Test Cases/Open Detail,,,,2022-11-22 21:12:13,2022-11-22 21:12:31,17.949s,PASSED
+"startApplication(""C:\Users\Mazway\Documents\QA Engineer\Katalon Sample Project\Firts-Automate-Mobile-Android\Mobile App\app-pendaki.apk"", true)",,,,2022-11-22 21:12:14,2022-11-22 21:12:28,14.341s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/list.picture.ImageView""), 0)",,,,2022-11-22 21:12:28,2022-11-22 21:12:29,0.948s,PASSED
+"scrollToText(""Argopoera"")",,,,2022-11-22 21:12:29,2022-11-22 21:12:30,0.865s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/back.ImageButton""), 0)",,,,2022-11-22 21:12:30,2022-11-22 21:12:30,0.271s,PASSED
+closeApplication(),,,,2022-11-22 21:12:30,2022-11-22 21:12:31,1.051s,PASSED
